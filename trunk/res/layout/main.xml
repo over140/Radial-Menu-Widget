@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/mainLinearLayoutTest"
+    >
+    <RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayoutTest" android:layout_height="fill_parent">
+        <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/map_bg" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></ImageView>
+        <Button android:text="Button" android:layout_width="wrap_content" android:id="@+id/button1" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"></Button>
+        <ImageView android:id="@+id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/red_circle" android:layout_alignParentTop="true" android:layout_alignLeft="@+id/button1" android:layout_marginTop="65dp"></ImageView>
+        <ImageView android:id="@+id/imageView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/blue_circle" android:layout_alignTop="@+id/imageView3" android:layout_centerHorizontal="true"></ImageView>
+        <ImageView android:id="@+id/imageView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/green_circle" android:layout_alignTop="@+id/imageView4" android:layout_alignRight="@+id/button1"></ImageView>
+        <ImageView android:id="@+id/imageView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yellow_circle" android:layout_alignTop="@+id/imageView5" android:layout_toRightOf="@+id/imageView5" android:layout_marginLeft="21dp"></ImageView>
+        <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="Click anywhere on the screen..." android:layout_centerVertical="true" android:layout_centerHorizontal="true"></TextView>
+    </RelativeLayout>
+
+        
+</LinearLayout>
+    
